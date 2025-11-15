@@ -1,2 +1,4 @@
+markdown: kramdown
+theme: null
 include:
   - assets/css/custom.css
