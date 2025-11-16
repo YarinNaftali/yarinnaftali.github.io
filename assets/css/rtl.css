@@ -1,0 +1,19 @@
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: Arial, sans-serif;
+}
+
+/* Make lists, headers, and paragraphs align correctly */
+ul,
+ol,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    direction: rtl;
+    text-align: right;
+}

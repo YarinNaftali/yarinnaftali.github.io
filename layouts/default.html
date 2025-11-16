@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    {{ site.minima.include }}
+    <link rel="stylesheet" href="{{ " /assets/css/rtl.css" | relative_url }}">
+</head>
+
+<body>
+
+    <header>
+        <nav style="text-align:right;">
+            {% for item in site.nav %}
+            <a href="{{ item.link }}" style="margin-left:15px;">{{ item.name }}</a>
+            {% endfor %}
+        </nav>
+    </header>
+
+    <main class="page-content" aria-label="Content" style="text-align:right;">
+        <div class="wrapper">
+            {{ content }}
+        </div>
+    </main>
+
+</body>
+
+</html>

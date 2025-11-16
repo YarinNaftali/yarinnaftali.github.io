@@ -1,4 +1,12 @@
-markdown: kramdown
+theme: minima
 
-include:
-  - assets/css/custom.css
+# Navigation menu
+nav:
+  - name: "דף הבית"
+    link: "/"
+  # - name: "אודות"
+  #   link: "/about.html"
+
+markdown: kramdown
+kramdown:
+  parse_block_html: true
