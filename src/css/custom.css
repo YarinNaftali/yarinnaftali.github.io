@@ -171,3 +171,134 @@ html[dir='rtl'] .markdown blockquote {
   margin-left: 1rem;
 }
 
+/* RTL adjustments for main container */
+html[dir='rtl'] .main-wrapper {
+  direction: rtl;
+}
+
+html[dir='rtl'] .container {
+  direction: rtl;
+}
+
+/* RTL adjustments for hero section */
+html[dir='rtl'] .hero {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir='rtl'] .hero__title {
+  text-align: right;
+}
+
+html[dir='rtl'] .hero__subtitle {
+  text-align: right;
+}
+
+/* RTL adjustments for buttons */
+html[dir='rtl'] .button {
+  direction: rtl;
+}
+
+html[dir='rtl'] .button-group {
+  flex-direction: row-reverse;
+}
+
+/* RTL adjustments for cards */
+html[dir='rtl'] .card {
+  direction: rtl;
+  text-align: right;
+}
+
+/* RTL adjustments for search */
+html[dir='rtl'] .navbar__search {
+  margin-left: 0;
+  margin-right: 1rem;
+}
+
+/* RTL adjustments for dropdown menus */
+html[dir='rtl'] .dropdown {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir='rtl'] .dropdown__menu {
+  direction: rtl;
+  text-align: right;
+  left: auto;
+  right: 0;
+}
+
+/* RTL adjustments for blog list items */
+html[dir='rtl'] .blog-list-item {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir='rtl'] .blog-list-item__meta {
+  direction: rtl;
+}
+
+/* RTL adjustments for tags */
+html[dir='rtl'] .tag {
+  direction: rtl;
+}
+
+html[dir='rtl'] .tags {
+  direction: rtl;
+  justify-content: flex-end;
+}
+
+/* RTL adjustments for sidebar toggle */
+html[dir='rtl'] .sidebar {
+  left: auto;
+  right: 0;
+}
+
+html[dir='rtl'] .sidebar__close {
+  left: auto;
+  right: 1rem;
+}
+
+/* RTL adjustments for main content area */
+html[dir='rtl'] .main {
+  direction: rtl;
+}
+
+/* RTL adjustments for doc item */
+html[dir='rtl'] .docItemContainer {
+  direction: rtl;
+  text-align: right;
+}
+
+/* RTL adjustments for admonitions */
+html[dir='rtl'] .admonition {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir='rtl'] .admonition-icon {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+/* RTL adjustments for tabs */
+html[dir='rtl'] .tabs {
+  direction: rtl;
+}
+
+html[dir='rtl'] .tabs__item {
+  direction: rtl;
+}
+
+/* RTL adjustments for mermaid diagrams */
+html[dir='rtl'] .mermaid {
+  direction: ltr;
+}
+
+/* Ensure body and root are RTL */
+html[dir='rtl'],
+html[dir='rtl'] body {
+  direction: rtl;
+  text-align: right;
+}
+
