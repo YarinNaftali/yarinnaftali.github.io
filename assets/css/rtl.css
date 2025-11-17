@@ -2,3 +2,16 @@ body {
     direction: rtl;
     text-align: right;
 }
+
+/* Fix navigation spacing for RTL */
+nav a {
+    margin-right: 20px !important;
+    margin-left: 0 !important;
+}
+
+/* Fix list padding for RTL */
+ul,
+ol {
+    padding-right: 2em;
+    padding-left: 0;
+}
