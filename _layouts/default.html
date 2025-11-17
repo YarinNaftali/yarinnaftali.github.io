@@ -1,60 +1,24 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>{{ page.title }} | {{ site.title }}</title>
+		{% seo %}
+		<link rel="stylesheet" href="{{ '/assets/css/rtl.css' | relative_url }}" />
+	</head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    {% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/rtl.css' | relative_url }}">
-</head>
+	<body>
+		<header>
+			<nav>
+				{% for item in site.nav %}
+				<a href="{{ item.link }}">{{ item.name }}</a>
+				{% endfor %}
+			</nav>
+		</header>
 
-<body style="direction: rtl !important; text-align: right !important;">
-
-<style type="text/css">
-    html, html[dir="rtl"] { 
-        direction: rtl !important; 
-    }
-    body, body * {
-        direction: rtl !important;
-        text-align: right !important;
-    }
-    body {
-        font-family: Arial, sans-serif;
-    }
-    ul, ol, p, h1, h2, h3, h4, h5, h6, div, section, article, aside, span, a {
-        direction: rtl !important;
-        text-align: right !important;
-    }
-    .wrapper, .page-content, main, header, nav, footer {
-        direction: rtl !important;
-        text-align: right !important;
-    }
-    nav a {
-        margin-right: 15px !important;
-        margin-left: 0 !important;
-    }
-    /* Override any LTR styles */
-    [dir="ltr"], .ltr {
-        direction: rtl !important;
-        text-align: right !important;
-    }
-</style>
-
-    <header>
-        <nav>
-            {% for item in site.nav %}
-            <a href="{{ item.link }}">{{ item.name }}</a>
-            {% endfor %}
-        </nav>
-    </header>
-
-    <main class="page-content" aria-label="Content">
-        <div class="wrapper">
-            {{ content }}
-        </div>
-    </main>
-
-</body>
-
+		<main class="page-content" aria-label="Content">
+			<div class="wrapper">{{ content }}</div>
+		</main>
+	</body>
 </html>
