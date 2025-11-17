@@ -41,24 +41,7 @@ const config: Config = {
 					sidebarPath: "./sidebars.ts",
 					editUrl:
 						"https://github.com/YarinNaftali/yarinnaftali.github.io/tree/main/",
-				},
-				blog: {
-					showReadingTime: true,
-					readingTime: ({ content, frontMatter, defaultReadingTime }) =>
-						defaultReadingTime({
-							content,
-							frontMatter,
-							options: { wordsPerMinute: 200 },
-						}),
-					editUrl:
-						"https://github.com/YarinNaftali/yarinnaftali.github.io/tree/main/",
-					blogTitle: "בלוג",
-					blogDescription: "בלוג אישי - מחשבות ורעיונות",
-					postsPerPage: 10,
-					blogSidebarTitle: "פוסטים אחרונים",
-					blogSidebarCount: "ALL",
-					onInlineAuthors: "ignore",
-					onUntruncatedBlogPosts: "ignore",
+					routeBasePath: "/",
 				},
 				theme: {},
 			} satisfies Preset.Options,
@@ -75,7 +58,6 @@ const config: Config = {
 					position: "left",
 					label: "תיעוד",
 				},
-				{ to: "/blog", label: "בלוג", position: "left" },
 				{
 					href: "https://github.com/YarinNaftali/yarinnaftali.github.io",
 					label: "GitHub",
@@ -91,16 +73,7 @@ const config: Config = {
 					items: [
 						{
 							label: "תיעוד",
-							to: "/docs/intro",
-						},
-					],
-				},
-				{
-					title: "בלוג",
-					items: [
-						{
-							label: "בלוג",
-							to: "/blog",
+							to: "/",
 						},
 					],
 				},
