@@ -1,0 +1,3 @@
+# This file ensures the static directory is tracked by git
+# Docusaurus will copy all files from static/ to the build output
+

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyarinnaftali_github_io=self.webpackChunkyarinnaftali_github_io||[]).push([[121],{8070:a=>{a.exports=JSON.parse('{"tags":[{"label":"welcome","permalink":"/blog/tags/welcome","count":1},{"label":"introduction","permalink":"/blog/tags/introduction","count":1}]}')}}]);

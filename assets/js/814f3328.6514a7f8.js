@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyarinnaftali_github_io=self.webpackChunkyarinnaftali_github_io||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"\u05e4\u05d5\u05e1\u05d8\u05d9\u05dd \u05d0\u05d7\u05e8\u05d5\u05e0\u05d9\u05dd","items":[{"title":"\u05e9\u05dc\u05d5\u05dd \ud83d\udc4b","permalink":"/blog/welcome","unlisted":false,"date":"2024-01-01T00:00:00.000Z"}]}')}}]);
