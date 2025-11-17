@@ -1,0 +1,173 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* RTL Support */
+html[dir='rtl'] {
+  direction: rtl;
+}
+
+html[dir='rtl'] body {
+  direction: rtl;
+  text-align: right;
+}
+
+/* RTL adjustments for navbar */
+html[dir='rtl'] .navbar__items {
+  flex-direction: row-reverse;
+}
+
+html[dir='rtl'] .navbar__item {
+  margin-left: 0;
+  margin-right: 1rem;
+}
+
+html[dir='rtl'] .navbar__item:last-child {
+  margin-right: 0;
+}
+
+/* RTL adjustments for sidebar */
+html[dir='rtl'] .menu {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir='rtl'] .menu__link {
+  text-align: right;
+}
+
+html[dir='rtl'] .menu__link--active {
+  border-right: 3px solid var(--ifm-color-primary);
+  border-left: none;
+}
+
+/* RTL adjustments for blog */
+html[dir='rtl'] .blog-wrapper {
+  direction: rtl;
+}
+
+html[dir='rtl'] .blog-list-page {
+  direction: rtl;
+}
+
+html[dir='rtl'] .blog-post-page {
+  direction: rtl;
+}
+
+/* RTL adjustments for code blocks */
+html[dir='rtl'] .prism-code {
+  direction: ltr;
+  text-align: left;
+}
+
+/* RTL adjustments for footer */
+html[dir='rtl'] .footer {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir='rtl'] .footer__links {
+  direction: rtl;
+}
+
+/* RTL adjustments for pagination */
+html[dir='rtl'] .pagination-nav {
+  direction: rtl;
+}
+
+html[dir='rtl'] .pagination-nav__link--prev {
+  float: right;
+}
+
+html[dir='rtl'] .pagination-nav__link--next {
+  float: left;
+}
+
+/* RTL adjustments for table of contents */
+html[dir='rtl'] .table-of-contents {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir='rtl'] .table-of-contents__link {
+  text-align: right;
+}
+
+html[dir='rtl'] .table-of-contents__link--active {
+  border-right: 2px solid var(--ifm-color-primary);
+  border-left: none;
+}
+
+/* RTL adjustments for breadcrumbs */
+html[dir='rtl'] .breadcrumbs {
+  direction: rtl;
+}
+
+html[dir='rtl'] .breadcrumbs__item {
+  margin-left: 0;
+  margin-right: 0.5rem;
+}
+
+html[dir='rtl'] .breadcrumbs__item:not(:last-child)::after {
+  content: '←';
+  margin-right: 0.5rem;
+  margin-left: 0;
+}
+
+/* RTL adjustments for markdown content */
+html[dir='rtl'] .markdown {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir='rtl'] .markdown h1,
+html[dir='rtl'] .markdown h2,
+html[dir='rtl'] .markdown h3,
+html[dir='rtl'] .markdown h4,
+html[dir='rtl'] .markdown h5,
+html[dir='rtl'] .markdown h6 {
+  text-align: right;
+}
+
+html[dir='rtl'] .markdown ul,
+html[dir='rtl'] .markdown ol {
+  padding-right: 2rem;
+  padding-left: 0;
+}
+
+html[dir='rtl'] .markdown blockquote {
+  border-right: 4px solid var(--ifm-color-primary);
+  border-left: none;
+  padding-right: 1rem;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 1rem;
+}
+

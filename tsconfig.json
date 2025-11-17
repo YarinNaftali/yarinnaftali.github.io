@@ -1,0 +1,9 @@
+{
+  // This file is not used, compilation is instead handled by SWC
+  "extends": "@docusaurus/tsconfig",
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "exclude": ["node_modules"]
+}
+

@@ -1,0 +1,36 @@
+{
+  "name": "yarinnaftali.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YarinNaftali/yarinnaftali.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YarinNaftali/yarinnaftali.github.io/issues"
+  },
+  "homepage": "https://github.com/YarinNaftali/yarinnaftali.github.io#readme",
+  "dependencies": {
+    "@docusaurus/core": "^3.9.2",
+    "@docusaurus/preset-classic": "^3.9.2",
+    "@docusaurus/theme-classic": "^3.9.2",
+    "clsx": "^2.1.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
