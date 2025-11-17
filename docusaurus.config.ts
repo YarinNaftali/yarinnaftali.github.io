@@ -114,7 +114,7 @@ const config: Config = {
 					],
 				},
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} Yarin Naftali. Built with Docusaurus.`,
+			copyright: `Copyright © ${new Date().getFullYear()} Yarin Naftali.`,
 		},
 		prism: {
 			theme: prismThemes.github,
